@@ -1,0 +1,165 @@
+@font-face
+{
+	font-family: caligo;
+	src: url(../font/caligo.ttf);
+}
+
+@font-face
+{
+	font-family: ka;
+	src: url(../font/ka.ttf);
+}
+
+@font-face
+{
+	font-family: gameplay;
+	src: url(../font/gameplay.ttf);
+}
+
+@font-face
+{
+	font-family: quenda;
+	src: url(../font/quenda.otf);
+}
+
+@font-face
+{
+	font-family: socialmedia;
+	src: url(../font/socialmedia.otf);
+}
+
+body
+{
+	margin: 0 0 0 0;
+	width: 100%;
+	height: auto;
+	background-color: black;
+}
+
+.body
+{
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+	min-height: 500px;
+}
+
+.judul
+{
+	font-size: 35px;
+	font-weight: bold;
+	color: #800000;
+	font-family: ka;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.header
+{
+	width: 100%;
+	height: auto;
+	padding: 0px;
+	text-align: center;
+	background: url(../image/banner1.jpg);
+}
+
+.nav
+{
+	padding: 20px;
+	margin-bottom: 8px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.ayopralogo
+{
+	width: 200px;
+	height: 200px;
+	margin-top: -40px;
+	margin-bottom: -50px;
+}
+
+.footerayopralogo
+{
+	width: 70px;
+	height: 70px;
+	margin-top: -1px;
+	margin-bottom: -10px;
+}
+
+.tombolnav
+{
+	border: 1px solid black;
+	background-color: white;
+	color: black;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: gameplay;
+	min-width: 100px;
+	border-radius: 5px;
+}
+
+.tombolnav:hover
+{
+	color: white;
+	background-color: black;
+}
+
+.footer
+{
+	background-color: white;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	font-family: quenda;
+}
+
+.footertext1
+{
+	font-size: 15px;
+	float: left;
+	width: 30%;
+	margin-bottom: : -15px;
+	padding-top: 30px;
+	text-decoration: none;
+	color: black;
+}
+
+.footertext2
+{
+	float: left;
+	width: 40%;
+}
+
+.footertext3
+{
+	font-size: 15px;
+	float: left;
+	width: 30%;
+	margin-bottom: : -15px;
+	padding-top: 30px;
+	text-decoration: none;
+	color: black;
+}
+
+.sosmed
+{
+	font-family: socialmedia;
+	margin-top: -30px;
+	font-size: 40px;
+}
+
+@media only screen and (max-width: 1100px)
+{
+	.header	
+	{
+		background: url(../image/banner2.jpg);
+	}
+}
